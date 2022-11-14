@@ -95,6 +95,12 @@ a.readmore {
     background: #e9ebed;
     padding: 30px;
   }
+
+  header, footer {                /*image is a grey box used to add space*/
+    background: #e9ebed;
+  }
+
+
   .figure {   /*created to center the img*/
     display: block;
     margin-left: auto;
