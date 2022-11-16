@@ -1,9 +1,5 @@
-<footer>
-			<div style="clear:both;"></div>
-			<div id="bottom"></div>
-			<div id="footer">
-					designed with guidance
-			</div>
+<footer class="clearfix">
+			<div id="footer">designed for sample by ailight360</div>
 	</footer>
 
 	</div>

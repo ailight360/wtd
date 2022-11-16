@@ -5,7 +5,7 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?var=1.0.6">
 	<title><?php bloginfo('name'); ?></title>
 </head>
 
@@ -15,20 +15,16 @@
 
 	<div id="wrap">
 
-	<header>
+	<header class="clearfix">
 		<div id="header">
-				<h1><?php bloginfo(name); ?></h1>
-				<h2><?php bloginfo(discription); ?></h2>
+				<h1><?php bloginfo('name'); ?></h1>
+				<h2><?php bloginfo('description'); ?></h2>
 		</div>
 
 		<div id="menu">
-				<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Sites</a></li>
-						<li><a href="#">Resume</a></li>
-						<li><a href="#">References</a></li>
-						<li><a href="#">Contact Me</a></li>
-				</ul>
+			<ul>
+				<?php wp_nav_menu(); ?>
+			</ul>
 		</div>
+
 	</header>

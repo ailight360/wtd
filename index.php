@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
-	<section id="content">
+
+
+	<section id="content" class="clearfix">
 
 		<div class="left">
 
@@ -30,6 +32,7 @@
 			</div>
 
 		</div>
+
 		<div class="right">
 				<h2>Categories</h2>
 				<ul>
@@ -59,4 +62,6 @@
 
 	</section>
 
-	<?php get_footer(); ?>
+<?php get_template_part('sub'); ?>
+
+<?php get_footer(); ?>
